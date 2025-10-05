@@ -308,6 +308,14 @@ body{
                 font-size: 30px;
             }
         }
+        .profile-image{
+            img{
+                border-radius: 50%;
+                width: 300px;
+                height: 300px;
+            }
+                    
+        }
     }
 
 
