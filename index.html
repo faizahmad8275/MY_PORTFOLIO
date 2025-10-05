@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" 
+        rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="" class="navbarHeading">My Portfolio</a>
+        <div class="iconSectionsContainer">
+            <a href="https://github.com/faizahmad8275">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/faiz-ahmad-936503329">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:faiztechnoindia@gmail.com" class="emailBtn">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            
+        </div>
+    </div>
+
+
+    <div class="intro-section">
+        <div class="intro-section-content">
+            <h2>Hi, I'm Faiz Ahmad</h2>
+            <p>I'm a passionate web developer and programmer 
+                who loves turning ideas into interactive and 
+                visually appealing digital experiences. 
+                With strong skills in HTML, CSS, JavaScript, 
+                and Python/C++, I focus on writing clean, 
+                efficient, and user-friendly code.
+            </p>
+            <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#testimony">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Testimony</span>
+                </a>
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="profile-image">
+            <img src="faiz.jpg" alt="Profile Image" />
+        </div>
+    </div>
+
+
+    <div class="skillsSection" id="skills">
+        <h2>Skills</h2>
+        <p>
+            I have a solid understanding of web development and programming concepts. 
+            My main skills include HTML, CSS, and JavaScript for building responsive websites, 
+            and Python and C++ for solving data structure and algorithm problems. 
+            I’m constantly improving my coding skills and learning new tools to 
+            stay up-to-date with modern development trends.
+        </p>
+        <div class="dev-skills-container">
+
+            <div class="cells">
+                <img src="html-logo.webp" alt="">
+                <span>HTML</span>
+            </div>
+
+            <div class="cells">
+                <img src="css-logo.webp" alt="">
+                <span>CSS</span>
+            </div>
+
+            <div class="cells">
+                <img src="javascript-logo.webp" alt="">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="cells">
+                <img src="Python-logo.png" alt="">
+                <span>Python</span>
+            </div>
+
+            <div class="cells">
+                <img src="c++-logo.png" alt="">
+                <span>C++</span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="testimonySection" id="testimony">
+        <h2>Testimony</h2>
+        <div class="testimonyContentContainer">
+
+            <div class="testimonyImageContainer">
+                <img src="faiz2.jpg" alt="Testimony 1">
+                <p class="testimony-image-header">Faiz Ahmad</p>
+                <p>Web Developer & Programmer</p>
+            </div>
+
+
+            <div class="testimonyTextContainer">
+                "I’m a passionate web developer and programmer who enjoys solving real-world problems through 
+                creative coding.I specialize in building responsive and user-friendly websites using HTML, 
+                CSS, and JavaScript, and I’m also deeply interested in Python and C++ for problem-solving and data structures. 
+                I believe that every project is an opportunity to learn, experiment, and grow as a developer. 
+                My goal is to create impactful digital experiences that make life easier and more enjoyable for people."
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="contactSection" id="contact">
+        <h2>Contacts</h2>
+        <div class="contactContentContainer">
+
+            <div class="contactTextContent">
+                Whether you’re looking for a passionate developer to work on your project, 
+                want to share ideas about coding and design, or just want to connect — I’d love to hear from you. 
+                I enjoy collaborating with people who are curious about technology and problem-solving. 
+                Drop me a message, and let’s create something amazing together!
+            </div>
+
+
+            <div class="contactFormContent">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Message</label>
+                <textarea cols="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
