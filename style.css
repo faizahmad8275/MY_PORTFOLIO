@@ -8,7 +8,7 @@
 
 body{
     max-width: 1400px;
-    background-color: #eeeff1;
+      background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
     margin: 0 auto;
 }
 
@@ -33,6 +33,7 @@ body{
             margin: 0px 10px;
             text-decoration: none;
             color: #555;
+            transition: all 0.3s ease;
 
             span{
                 margin-left: 5px;
@@ -44,6 +45,17 @@ body{
             background-color: #1a1c20;
             padding: 5px 15px;
             border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .emailBtn:hover{
+            color: #3b82f6;            
+            transform: scale(1.2);  
+        }
+
+        .social-icons:hover{
+            color: #3b82f6;            
+            transform: scale(1.2);     
         }
 
     }
@@ -346,3 +358,19 @@ body{
 }
 
 
+
+
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
